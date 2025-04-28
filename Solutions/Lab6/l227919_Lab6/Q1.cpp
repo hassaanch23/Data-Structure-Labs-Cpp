@@ -1,0 +1,116 @@
+//#include<iostream>
+//using namespace std;
+//
+//template<class T>
+//class Stack {
+//	T* arr;
+//	int top;
+//	int size;
+//public:
+//	Stack(int s) {
+//		size = s;
+//		top = -1;
+//		arr = new T[size];
+//	}
+//
+//	~Stack() {
+//		arr = nullptr;
+//		delete[] arr;
+//	}
+//
+//	void push(T val) {
+//		if (isFull()) {
+//			cout << "Stack is Full. Cannot push more elements " << endl;
+//			return;
+//		}
+//		else {
+//			top++;
+//			arr[top] = val;
+//		}
+//	}
+//
+//	bool isFull() {
+//
+//		if (top == size) {
+//			return true;
+//		}
+//		else
+//			return false;
+//	}
+//
+//	bool isEmpty() {
+//
+//		if (top == -1)
+//			return true;
+//
+//		else
+//			return false;
+//	}
+//
+//	void pop() {
+//
+//		if (top == -1) {
+//			cout << "The stack is already empty." << endl;
+//			return;
+//		}
+//
+//		top--;
+//		cout << endl<< "Element popped." << endl;
+//	}
+//
+//	int Size() {
+//
+//		if (top == -1) {
+//			cout << "Stack is Empty." << endl;
+//			return -1;
+//		}
+//
+//		return top + 1;
+//	}
+//
+//	bool Top(T& element) {
+//		if (isEmpty()) {
+//			return false;
+//		}
+//		element = arr[top];
+//		return true;
+//	}
+//
+//	void display() {
+//		for (int i = 0; i <= top; i++) {
+//			cout << arr[i] << " ";
+//		}
+//		cout << endl;
+//	}
+//};
+//
+//int main() {
+//	Stack<int> stack(5);
+//
+//	stack.push(1);
+//	stack.push(2);
+//	stack.push(3);
+//
+//	stack.display();
+//
+//	int top_element;
+//	if (stack.Top(top_element)) {
+//		cout << "Top element: " << top_element << endl;
+//	}
+//	else {
+//		cout << "Stack is empty." << endl;
+//	}
+//
+//	cout << "Stack size: " << stack.Size() << endl;
+//
+//	stack.pop();
+//	stack.display();
+//	stack.pop();
+//	stack.display();
+//	stack.pop();
+//	stack.display();
+//	stack.pop();
+//	stack.display();
+//
+//	return 0;
+//}

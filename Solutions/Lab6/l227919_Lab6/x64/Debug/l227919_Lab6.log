@@ -1,0 +1,5 @@
+﻿  Q1.cpp
+  Q2.cpp
+E:\FAST\3rd Semester\Data Structures Lab\Solutions\l227919_Lab6\l227919_Lab6\Q2.cpp(90,37): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  Generating Code...
+  l227919_Lab6.vcxproj -> E:\FAST\3rd Semester\Data Structures Lab\Solutions\l227919_Lab6\x64\Debug\l227919_Lab6.exe

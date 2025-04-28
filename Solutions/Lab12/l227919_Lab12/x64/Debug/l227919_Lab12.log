@@ -1,0 +1,5 @@
+﻿  Q1.cpp
+F:\FAST\3rd Semester\Data Structures Lab\Solutions\l227919_Lab12\l227919_Lab12\Q1.cpp(1,1): warning C4335: Mac file format detected: please convert the source file to either DOS or UNIX format
+F:\FAST\3rd Semester\Data Structures Lab\Solutions\l227919_Lab12\l227919_Lab12\Q1.cpp(1,10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+F:\FAST\3rd Semester\Data Structures Lab\Solutions\l227919_Lab12\x64\Debug\l227919_Lab12.exe : fatal error LNK1120: 1 unresolved externals

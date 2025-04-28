@@ -1,0 +1,8 @@
+﻿  Q2.cpp
+  Q3.cpp
+E:\FAST\3rd Semester\Data Structures Lab\Solutions\l227919_Lab7\l227919_Lab7\Q3.cpp(85,15): warning C4101: 'element': unreferenced local variable
+E:\FAST\3rd Semester\Data Structures Lab\Solutions\l227919_Lab7\l227919_Lab7\Q3.cpp(81,10): message : while compiling class template member function 'void Queue<int>::intersection(const Queue<int> &)'
+E:\FAST\3rd Semester\Data Structures Lab\Solutions\l227919_Lab7\l227919_Lab7\Q3.cpp(159,23): message : see the first reference to 'Queue<int>::intersection' in 'main'
+E:\FAST\3rd Semester\Data Structures Lab\Solutions\l227919_Lab7\l227919_Lab7\Q3.cpp(117,16): message : see reference to class template instantiation 'Queue<int>' being compiled
+  Generating Code...
+  l227919_Lab7.vcxproj -> E:\FAST\3rd Semester\Data Structures Lab\Solutions\l227919_Lab7\x64\Debug\l227919_Lab7.exe
